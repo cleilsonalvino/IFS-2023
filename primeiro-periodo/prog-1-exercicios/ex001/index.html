@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Altura</title>
+    <title>Atividade 06/09/23</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
       <h1>Qual é a maior altura?</h1>
-      <p>digite "." ao invés de ","</p>
+      <h2>digite "." ao invés de ","</h2>
     </header>
     <section>
       
@@ -38,15 +38,95 @@
           </p> 
         </p>
         <p>
-          <input type="button" value="Verificar" onclick="verificar()">
+          <input type="button" value="Verificar" onclick="verificar()" class="botao">
         </p>
       </div>
       <div id="res">
        
       </div>
     </section>
+
+    <h1>Par ou ímpar?</h1>
+
+    <section>
+      <div>
+        <p>
+          <label for="num">Qual número deseja adicionar?</label>
+          <input type="number" name="num" id="num" style="width: 50px;">
+        </p>
+        <p>
+          <input type="button" value="Verificar" onclick="verificar2()" class="botao">
+        </p>
+        
+      </div>
+      <div id="res-1">
+        
+      </div>
+    </section>
+
+    <h1>Qual é o maior?</h1>
+    <section>
+      <div>
+        <p>
+          <label for="num-1">Digite um número: </label>
+          <input type="number" name="num-1" id="nump">
+        </p>
+        <p>
+          <label for="num-2">Digite outro número:</label>
+          <input type="number" name="num-2" id="nums">
+        </p>
+        <p>
+          <input type="button" value="Verificar" onclick="verificar3()" class="botao">
+        </p>
+      </div>
+      <div id="res-2">
+
+      </div>
+    </section>
+
+    <h1>Positivo ou negativo?</h1>
+
+    <section>
+      <div>
+        <p>
+          <label for="num">Digite um número: </label>
+          <input type="number" name="num" id="numpn">
+        </p>
+        <p>
+          <input type="button" value="Verificar" class="botao" onclick="verificar4()">
+        </p>
+      </div>
+      <div id="res-3">
+
+      </div>
+    </section>
+
+    <h1>Qual é o maior? (2.0)</h1>
+    <section>
+      <div>
+        <p>
+          <label for="num-1">Digite um número: </label>
+          <input type="number" name="num-1" id="num-1" style="width: 50px;">
+        </p>
+        <p>
+          <label for="num-2">Digite outro número:</label>
+          <input type="number" name="num-2" id="num-2" style="width: 50px;">
+        </p>
+        <p>
+          <label for="num-2">Digite mais um número:</label>
+          <input type="number" name="num-2" id="num-3" style="width: 50px;">
+        </p>
+        <p>
+          <input type="button" value="Verificar" onclick="verificar5()" class="botao">
+        </p>
+      </div>
+      <div id="res-4">
+
+      </div>
+    </section>
+
     <footer>
-      <p>&copy; cleilsonalvino</p>
+      <p>&copy;cleilsonalvino</p>
     </footer>
 
     <script src="script.js"></script>

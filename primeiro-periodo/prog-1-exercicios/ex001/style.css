@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
   background-color: orangered;
   font: normal 15pt Arial;
 }
 
-header {
+h1, h2 {
   color: white;
   text-align: center;
 }
@@ -14,17 +16,32 @@ section {
   border-radius: 10px;
   padding: 15px;
   width: 350px;
-  margin: auto;
+  margin: 20px auto;
+}
+
+.botao {
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  margin: 10px 10px;
+  background-color: rgb(255, 136, 0);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 
-p > label {
-  font-size: 14px;
+label {
+  font-size: 16px;
+  padding: 10px;
 }
 
 footer {
   color: white;
   text-align: center;
   font-style: italic;
-  
+  letter-spacing: 5px;
 }
