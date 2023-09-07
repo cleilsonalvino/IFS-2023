@@ -1,0 +1,30 @@
+body {
+  background-color: orangered;
+  font: normal 15pt Arial;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+
+section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 350px;
+  margin: auto;
+}
+
+
+p > label {
+  font-size: 14px;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+  
+}
